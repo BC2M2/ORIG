@@ -11,6 +11,7 @@
                   document.getElementById("seccion_sancion").style.display= 'block';
               }
               
+		  
               var today = new Date();
               var t = today.toISOString().substring(0, 10);
               
