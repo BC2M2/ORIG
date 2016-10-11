@@ -941,7 +941,6 @@
               }
           }
           function Calcular_Porcentajes_BG(){
-		  alert("asda");
               var total_activos = Calcular_Activos();
               
               if(total_activos != 0){
