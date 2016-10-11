@@ -1475,6 +1475,7 @@
 		var CoberturaDeuda = convNro(document.getElementById("CoberturaDeuda").value);
 		CoberturaDeuda = Number(CoberturaDeuda).toFixed(2);
 		lista.push(CoberturaDeuda);
+		  alert(lista);
               return lista;
           }
           function getDictamen(){
