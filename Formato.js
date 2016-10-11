@@ -1269,6 +1269,7 @@
               return lista;
           }
           function getBalanceGeneral(){
+	      Calcular_Porcentajes_BG();
               var lista = [];
               var bg_1 = convNro(document.getElementById('bg_1').value);
               lista.push(bg_1);
